@@ -144,9 +144,6 @@ REST_FRAMEWORK = {
     ],
 }
 
-# CORS settings
-
-CORS_ALLOWED_ORIGINS = os.getenv("CORS_ALLOWED_ORIGINS", "").split(",")
 
 # Media files
 MEDIA_URL = "/media/"
@@ -169,3 +166,11 @@ CACHES = {
 }
 
 CACHE_TTL = 60 * 5
+
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://localhost:3001',
+    'https://localhost:3000',
+    'https://localhost:3001',
+]
