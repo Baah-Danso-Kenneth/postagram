@@ -173,4 +173,6 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3001',
     'https://localhost:3000',
     'https://localhost:3001',
+    'http://postagram-bucket-ui.s3-website.eu-north-1.amazonaws.com',
+    'https://postagram-bucket-ui.s3-website.eu-north-1.amazonaws.com',
 ]
