@@ -21,7 +21,7 @@ jobs:
                 POSTGRES_PASSWORD=wCh29&HE&T83
                 POSTGRES_DB=test_coredb
                 ENV=TESTING
-                DJANGO_ALLOWED_HOSTS=127.0.0.1,localhost" > .env
+                ENV=TESTING" > .env
       - name: Building Docker container
         run: |
           docker-compose up -d --build
